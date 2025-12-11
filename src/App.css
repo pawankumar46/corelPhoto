@@ -1,42 +1,170 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+.coming-soon-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 2rem;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.content-wrapper {
+  max-width: 900px;
+  width: 100%;
   text-align: center;
 }
 
+/* Logo Section */
+.logo-section {
+  margin-bottom: 2rem;
+}
+
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo-jl {
+  color: #2ecc71;
+  font-size: 2.5rem;
+}
+
+.logo-7 {
+  color: #3498db;
+  font-size: 2.5rem;
+}
+
+.company-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.corel {
+  color: #2ecc71;
+}
+
+.photo {
+  color: #3498db;
+}
+
+.kannada-name {
+  font-size: 1.8rem;
+  color: #2ecc71;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+/* Tagline */
+.tagline {
+  color: #3498db;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+}
+
+/* Coming Soon Message */
+.coming-soon-message {
+  margin-bottom: 3rem;
+}
+
+.coming-soon-message h1 {
+  font-size: 3.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.coming-soon-message p {
+  font-size: 1.3rem;
+  color: #7f8c8d;
+  margin: 0;
+}
+
+/* Photo Section */
+.photo-section {
+  margin: 3rem 0;
+}
+
+.photo-placeholder {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.main-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Contact Section */
+.contact-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #2c3e50;
+}
+
+.contact-info {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-item {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contact-item strong {
+  color: #2c3e50;
+  margin-right: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .coming-soon-container {
+    padding: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .logo {
+    font-size: 2rem;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .logo-jl,
+  .logo-7 {
+    font-size: 2rem;
   }
-}
 
-.card {
-  padding: 2em;
-}
+  .company-name {
+    font-size: 1.8rem;
+  }
 
-.read-the-docs {
-  color: #888;
+  .kannada-name {
+    font-size: 1.4rem;
+  }
+
+  .coming-soon-message h1 {
+    font-size: 2.5rem;
+  }
+
+  .coming-soon-message p {
+    font-size: 1.1rem;
+  }
+
+  .contact-item {
+    font-size: 0.9rem;
+  }
 }
