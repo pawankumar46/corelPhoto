@@ -42,7 +42,7 @@ function App() {
               Banashankari, Bengaluru- 560050
             </div>
             <div className="contact-item">
-              <strong>Mob:</strong> +91 73380 46069 / +91 96112 35211
+              <strong>Mob:</strong> +91 96112 36211 / +91 96112 35211
             </div>
             <div className="contact-item">
               <strong>Mail:</strong> info.corelphoto@gmail.com
