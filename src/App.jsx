@@ -1,5 +1,5 @@
 import './App.css'
-import corel from "./assets/corel.jpeg"
+import corel1 from "./assets/corel1.jpeg"
 function App() {
   return (
     <div className="coming-soon-container">
@@ -26,7 +26,7 @@ function App() {
         <div className="photo-section">
           <div className="photo-placeholder">
             <img 
-              src={corel}
+              src={corel1}
               alt="Corel Photo" 
               className="main-photo"
             />
