@@ -1,5 +1,5 @@
 import './App.css'
-
+import corel from "./assets/corel.jpeg"
 function App() {
   return (
     <div className="coming-soon-container">
@@ -16,10 +16,6 @@ function App() {
           </div>
           <div className="kannada-name">ಕೋರಲ್ ಫೋಟೋ</div>
         </div>
-
-        {/* Tagline */}
-        <div className="tagline">A UNIT OF VALUE OCCASION</div>
-
         {/* Coming Soon Message */}
         <div className="coming-soon-message">
           <h1>Coming Soon</h1>
@@ -30,7 +26,7 @@ function App() {
         <div className="photo-section">
           <div className="photo-placeholder">
             <img 
-              src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&h=600&fit=crop" 
+              src={corel}
               alt="Corel Photo" 
               className="main-photo"
             />
